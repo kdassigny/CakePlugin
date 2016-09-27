@@ -1,0 +1,14 @@
+2016-09-27 07:09:56 Warning: Headers already sent in C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Filter\AssetFilter.php:149
+2016-09-27 07:10:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
