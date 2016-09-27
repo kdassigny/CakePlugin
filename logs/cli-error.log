@@ -1,0 +1,27 @@
+2016-09-27 09:23:19 Error: [PDOException] SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'my_app'@'@localhost' (mot de passe: OUI)
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
+#1 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Database\Connection.php(322): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(946): Cake\Database\Connection->schemaCollection()
+#8 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(898): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(202): Bake\Shell\Task\ModelTask->listAll()
+#10 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'posts', 'Posts')
+#12 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Posts')
+#13 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Posts')
+#14 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Posts', 0)
+#15 C:\wamp64\www\CakePlugin\vendor\cakephp\bake\src\Shell\BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#16 [internal function]: Bake\Shell\BakeShell->all('posts')
+#17 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Console\Shell.php(452): call_user_func_array(Array, Array)
+#18 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 C:\wamp64\www\CakePlugin\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
