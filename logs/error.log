@@ -12,3 +12,1250 @@ Stack Trace:
 #1 {main}
 
 
+2016-09-27 09:30:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Posts\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\add.ctp',
+)
+Request URL: /posts/add
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\View\View.php(585): Cake\View\View->_getViewFileName('Posts\\add')
+#1 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#2 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#3 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#4 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-09-27 09:32:47 Error: [Cake\Controller\Exception\MissingActionException] Action PostsController::adit() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'adit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /posts/adit
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#2 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-09-27 09:32:50 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "posts" with primary key [NULL]
+Request URL: /posts/edit
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\src\Controller\PostsController.php(77): Cake\ORM\Table->get(Array, Array)
+#1 [internal function]: App\Controller\PostsController->edit()
+#2 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#5 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-09-27 09:32:57 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "posts" with primary key [NULL]
+Request URL: /posts/edit
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\src\Controller\PostsController.php(77): Cake\ORM\Table->get(Array, Array)
+#1 [internal function]: App\Controller\PostsController->edit()
+#2 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#4 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#5 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-09-27 09:33:03 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "posts"
+Request URL: /posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\ORM\Table.php(1217): Cake\ORM\Query->firstOrFail()
+#1 C:\wamp64\www\CakePlugin\src\Controller\PostsController.php(77): Cake\ORM\Table->get(Array, Array)
+#2 [internal function]: App\Controller\PostsController->edit('1')
+#3 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(115): Cake\Controller\Controller->invokeAction()
+#5 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PostsController))
+#6 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-09-27 09:44:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:46:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:46:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:47:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:47:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:48:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:49:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:51:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:51:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:51:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:52:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:53:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:54:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:54:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:55:36 Error: [ParseError] syntax error, unexpected '}', expecting ';'
+Request URL: /posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\vendor\composer\ClassLoader.php(301): Composer\Autoload\includeFile('C:\\wamp64\\www\\C...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Core\App.php(152): class_exists('App\\Controller\\...')
+#4 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Core\App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pos...', 'App')
+#5 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(91): Cake\Core\App::className('Posts', 'Controller', 'Controller')
+#6 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#8 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Event\EventManager.php(425): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Event\EventManager.php(386): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#10 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(79): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#11 C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#12 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-09-27 09:55:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:55:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:55:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:56:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:56:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:56:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:57:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:57:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:57:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 09:57:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:37:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:38:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:39:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:39:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:40:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:42:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:43:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:51:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:51:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:51:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:53:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 11:55:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:01:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:01:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:03:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:03:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:05:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:05:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:07:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:08:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:08:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:14:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:16:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:17:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:17:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:18:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:25:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:31:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:37:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:38:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:39:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:39:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:40:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:43:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:43:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:47:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:49:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:52:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:57:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:57:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:58:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 12:59:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:00:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:00:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:00:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:00:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:01:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:01:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:02:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:02:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:08:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:10:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:10:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:16:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:24:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:26:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:27:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:29:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-27 13:31:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Resources could not be found.
+Exception Attributes: array (
+  'class' => 'Resources',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resources/demos/style.css
+Referer URL: http://cakeplugin:8080/posts/edit/1
+Stack Trace:
+#0 C:\wamp64\www\CakePlugin\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
