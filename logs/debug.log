@@ -84,3 +84,2357 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 
 
+2016-09-28 13:31:15 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /postit/posts/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:15 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /postit/posts/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:16 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/9691118c-cb00-478f-9abd-dede8efbbb89
+Referer URL: http://cakeplugin:8080/postit/posts/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:16 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/9691118c-cb00-478f-9abd-dede8efbbb89
+Referer URL: http://cakeplugin:8080/postit/posts/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:18 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/dc512749-29d2-474e-8396-bb436ae190a0
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/9691118c-cb00-478f-9abd-dede8efbbb89
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:18 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/dc512749-29d2-474e-8396-bb436ae190a0
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/9691118c-cb00-478f-9abd-dede8efbbb89
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:18 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/24d28a8b-c50b-445e-8401-61cef513b61c
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/dc512749-29d2-474e-8396-bb436ae190a0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:18 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/24d28a8b-c50b-445e-8401-61cef513b61c
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/dc512749-29d2-474e-8396-bb436ae190a0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:19 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/39a385b1-ff5a-44c9-ab5a-1a111a0c8163
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/24d28a8b-c50b-445e-8401-61cef513b61c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:19 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/39a385b1-ff5a-44c9-ab5a-1a111a0c8163
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/24d28a8b-c50b-445e-8401-61cef513b61c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:20 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/cb94886e-18fd-48ff-b5c1-f7002432fe71
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/39a385b1-ff5a-44c9-ab5a-1a111a0c8163
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:20 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/cb94886e-18fd-48ff-b5c1-f7002432fe71
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/39a385b1-ff5a-44c9-ab5a-1a111a0c8163
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:21 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/1c2f485c-34f7-4f71-9c4b-65d1bff37844
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/cb94886e-18fd-48ff-b5c1-f7002432fe71
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:21 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/1c2f485c-34f7-4f71-9c4b-65d1bff37844
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/cb94886e-18fd-48ff-b5c1-f7002432fe71
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:22 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/3126a334-ed44-409e-b400-16d5d20243b6
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/1c2f485c-34f7-4f71-9c4b-65d1bff37844
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:22 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/3126a334-ed44-409e-b400-16d5d20243b6
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/1c2f485c-34f7-4f71-9c4b-65d1bff37844
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:23 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/db8b9961-f757-422b-adc8-30acd3e96969
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/3126a334-ed44-409e-b400-16d5d20243b6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:23 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/db8b9961-f757-422b-adc8-30acd3e96969
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/3126a334-ed44-409e-b400-16d5d20243b6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:25 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/cc56ef37-62be-4b5f-aaa0-f454d54db25e
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/db8b9961-f757-422b-adc8-30acd3e96969
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:25 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/cc56ef37-62be-4b5f-aaa0-f454d54db25e
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/db8b9961-f757-422b-adc8-30acd3e96969
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:28 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/a5ae6630-d306-4aab-b033-ddbf86d8a06e
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/cc56ef37-62be-4b5f-aaa0-f454d54db25e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:28 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/a5ae6630-d306-4aab-b033-ddbf86d8a06e
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/cc56ef37-62be-4b5f-aaa0-f454d54db25e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:33 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/4356559a-d4d6-4c94-bd8d-9f30c26531ae
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/a5ae6630-d306-4aab-b033-ddbf86d8a06e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:33 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/4356559a-d4d6-4c94-bd8d-9f30c26531ae
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/a5ae6630-d306-4aab-b033-ddbf86d8a06e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:37 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/3ed1d969-089d-4c83-bd18-7431b8ac1019
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/4356559a-d4d6-4c94-bd8d-9f30c26531ae
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:37 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/3ed1d969-089d-4c83-bd18-7431b8ac1019
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/4356559a-d4d6-4c94-bd8d-9f30c26531ae
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:40 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/bfc18d3c-e4b2-4fdf-95c1-5b6683b662be
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/3ed1d969-089d-4c83-bd18-7431b8ac1019
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:40 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/bfc18d3c-e4b2-4fdf-95c1-5b6683b662be
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/3ed1d969-089d-4c83-bd18-7431b8ac1019
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:41 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/794f7dc9-f823-42b0-b655-a8294c5a499a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/bfc18d3c-e4b2-4fdf-95c1-5b6683b662be
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:41 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/794f7dc9-f823-42b0-b655-a8294c5a499a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/bfc18d3c-e4b2-4fdf-95c1-5b6683b662be
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:42 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/93014453-645a-4945-ad5c-c79a0e20d2fb
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/794f7dc9-f823-42b0-b655-a8294c5a499a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:42 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/93014453-645a-4945-ad5c-c79a0e20d2fb
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/794f7dc9-f823-42b0-b655-a8294c5a499a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:43 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/c3e30efb-8864-4520-a584-657c573e9304
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/93014453-645a-4945-ad5c-c79a0e20d2fb
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:43 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/c3e30efb-8864-4520-a584-657c573e9304
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/93014453-645a-4945-ad5c-c79a0e20d2fb
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:44 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/83c1ed02-8be1-4a97-b789-51d5f91f1b07
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/c3e30efb-8864-4520-a584-657c573e9304
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:44 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/83c1ed02-8be1-4a97-b789-51d5f91f1b07
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/c3e30efb-8864-4520-a584-657c573e9304
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:46 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/51c47fdb-d746-451e-b974-efffced54cd4
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/83c1ed02-8be1-4a97-b789-51d5f91f1b07
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:46 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/51c47fdb-d746-451e-b974-efffced54cd4
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/83c1ed02-8be1-4a97-b789-51d5f91f1b07
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:50 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/57676a62-4ec2-4c46-8d4d-4ac56a3ee3f0
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/51c47fdb-d746-451e-b974-efffced54cd4
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:50 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/57676a62-4ec2-4c46-8d4d-4ac56a3ee3f0
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/51c47fdb-d746-451e-b974-efffced54cd4
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:54 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/5bf226c4-11b1-4f42-a111-8f51bfad54a6
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/57676a62-4ec2-4c46-8d4d-4ac56a3ee3f0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:54 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/5bf226c4-11b1-4f42-a111-8f51bfad54a6
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/57676a62-4ec2-4c46-8d4d-4ac56a3ee3f0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:57 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/ca8d0eff-32eb-4565-b924-b64b0551246e
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/5bf226c4-11b1-4f42-a111-8f51bfad54a6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:57 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/ca8d0eff-32eb-4565-b924-b64b0551246e
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/5bf226c4-11b1-4f42-a111-8f51bfad54a6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:59 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/3707df2a-f310-49d2-a9ed-b2c678972b9a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/ca8d0eff-32eb-4565-b924-b64b0551246e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:31:59 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/3707df2a-f310-49d2-a9ed-b2c678972b9a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/ca8d0eff-32eb-4565-b924-b64b0551246e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:02 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/91d81e58-d74c-467c-9c38-499bd92438fe
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/3707df2a-f310-49d2-a9ed-b2c678972b9a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:02 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/91d81e58-d74c-467c-9c38-499bd92438fe
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/3707df2a-f310-49d2-a9ed-b2c678972b9a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:05 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/f2b911dc-2850-4940-84b3-ee07a2886926
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/91d81e58-d74c-467c-9c38-499bd92438fe
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:05 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/f2b911dc-2850-4940-84b3-ee07a2886926
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/91d81e58-d74c-467c-9c38-499bd92438fe
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:06 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/e9debbb9-2381-460f-a8a1-8bc6bdc29ae7
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f2b911dc-2850-4940-84b3-ee07a2886926
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:06 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/e9debbb9-2381-460f-a8a1-8bc6bdc29ae7
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f2b911dc-2850-4940-84b3-ee07a2886926
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:07 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/6e2c539a-0038-445a-9c31-f36963c665da
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/e9debbb9-2381-460f-a8a1-8bc6bdc29ae7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:07 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/6e2c539a-0038-445a-9c31-f36963c665da
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/e9debbb9-2381-460f-a8a1-8bc6bdc29ae7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:08 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/bbada6df-0e42-4edd-80d8-6e3edc3b66ed
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/6e2c539a-0038-445a-9c31-f36963c665da
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:08 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/bbada6df-0e42-4edd-80d8-6e3edc3b66ed
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/6e2c539a-0038-445a-9c31-f36963c665da
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:08 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/8d7487d0-456a-4295-bd82-1630057b807a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/bbada6df-0e42-4edd-80d8-6e3edc3b66ed
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:08 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/8d7487d0-456a-4295-bd82-1630057b807a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/bbada6df-0e42-4edd-80d8-6e3edc3b66ed
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:09 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/8e412c87-6bf5-4478-8620-5c4c64efa42d
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/8d7487d0-456a-4295-bd82-1630057b807a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:09 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/8e412c87-6bf5-4478-8620-5c4c64efa42d
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/8d7487d0-456a-4295-bd82-1630057b807a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:10 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/5e0e933c-8214-47e2-ab9f-74abdd27160c
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/8e412c87-6bf5-4478-8620-5c4c64efa42d
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:10 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/5e0e933c-8214-47e2-ab9f-74abdd27160c
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/8e412c87-6bf5-4478-8620-5c4c64efa42d
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:11 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/c4af2e4f-7179-4420-82e3-d323e9baaf08
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/5e0e933c-8214-47e2-ab9f-74abdd27160c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:11 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/c4af2e4f-7179-4420-82e3-d323e9baaf08
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/5e0e933c-8214-47e2-ab9f-74abdd27160c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:12 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/860710d8-24cf-4621-9c2c-8a63ee213750
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/c4af2e4f-7179-4420-82e3-d323e9baaf08
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:12 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/860710d8-24cf-4621-9c2c-8a63ee213750
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/c4af2e4f-7179-4420-82e3-d323e9baaf08
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:14 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/74b1181c-2020-4733-9bc5-885139b7a123
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/860710d8-24cf-4621-9c2c-8a63ee213750
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:14 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/74b1181c-2020-4733-9bc5-885139b7a123
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/860710d8-24cf-4621-9c2c-8a63ee213750
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:16 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/f11c90b1-7b70-4ee9-b005-60f6ac2633cf
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/74b1181c-2020-4733-9bc5-885139b7a123
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:16 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/f11c90b1-7b70-4ee9-b005-60f6ac2633cf
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/74b1181c-2020-4733-9bc5-885139b7a123
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:18 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/953211cc-c33d-47a7-b087-c19b975129c8
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f11c90b1-7b70-4ee9-b005-60f6ac2633cf
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:18 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/953211cc-c33d-47a7-b087-c19b975129c8
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f11c90b1-7b70-4ee9-b005-60f6ac2633cf
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:20 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/011fe32a-e2a6-4b25-89bb-3e02a3433150
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/953211cc-c33d-47a7-b087-c19b975129c8
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:20 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/011fe32a-e2a6-4b25-89bb-3e02a3433150
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/953211cc-c33d-47a7-b087-c19b975129c8
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:22 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/b105763c-c03c-4e8c-a9b7-28114be78c42
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/011fe32a-e2a6-4b25-89bb-3e02a3433150
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:22 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/b105763c-c03c-4e8c-a9b7-28114be78c42
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/011fe32a-e2a6-4b25-89bb-3e02a3433150
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:24 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/f2ac517b-ea2a-4bce-9e3d-b12be5196196
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/b105763c-c03c-4e8c-a9b7-28114be78c42
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:24 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/f2ac517b-ea2a-4bce-9e3d-b12be5196196
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/b105763c-c03c-4e8c-a9b7-28114be78c42
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:25 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/ab364cb3-101b-403e-8df6-3ce248c2f7a3
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f2ac517b-ea2a-4bce-9e3d-b12be5196196
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:25 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/ab364cb3-101b-403e-8df6-3ce248c2f7a3
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f2ac517b-ea2a-4bce-9e3d-b12be5196196
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:26 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/4dd8d717-8db3-42f3-9602-674a2af86879
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/ab364cb3-101b-403e-8df6-3ce248c2f7a3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:26 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/4dd8d717-8db3-42f3-9602-674a2af86879
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/ab364cb3-101b-403e-8df6-3ce248c2f7a3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:27 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/a274fcfb-02b3-427d-9059-0c70e4f5d67c
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/4dd8d717-8db3-42f3-9602-674a2af86879
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:27 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/a274fcfb-02b3-427d-9059-0c70e4f5d67c
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/4dd8d717-8db3-42f3-9602-674a2af86879
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:28 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/6a6f41f6-5cd7-47ce-913c-18f79aea1048
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/a274fcfb-02b3-427d-9059-0c70e4f5d67c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:28 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/6a6f41f6-5cd7-47ce-913c-18f79aea1048
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/a274fcfb-02b3-427d-9059-0c70e4f5d67c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:29 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/b6f6840e-fde1-4e61-99af-710fc9f9e515
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/6a6f41f6-5cd7-47ce-913c-18f79aea1048
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:29 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/b6f6840e-fde1-4e61-99af-710fc9f9e515
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/6a6f41f6-5cd7-47ce-913c-18f79aea1048
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:30 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/a475e4fb-b2b1-4b5c-aafc-898f45357d1d
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/b6f6840e-fde1-4e61-99af-710fc9f9e515
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:30 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/a475e4fb-b2b1-4b5c-aafc-898f45357d1d
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/b6f6840e-fde1-4e61-99af-710fc9f9e515
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:31 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/6522e7bf-adff-4ac7-b7dc-ed8514413668
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/a475e4fb-b2b1-4b5c-aafc-898f45357d1d
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:31 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/6522e7bf-adff-4ac7-b7dc-ed8514413668
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/a475e4fb-b2b1-4b5c-aafc-898f45357d1d
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:32 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/300a7db7-de56-4bb4-b405-d26b67a773d3
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/6522e7bf-adff-4ac7-b7dc-ed8514413668
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:32 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/300a7db7-de56-4bb4-b405-d26b67a773d3
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/6522e7bf-adff-4ac7-b7dc-ed8514413668
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:33 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/d076197c-36f7-4688-8880-03e26cef117f
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/300a7db7-de56-4bb4-b405-d26b67a773d3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:33 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/d076197c-36f7-4688-8880-03e26cef117f
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/300a7db7-de56-4bb4-b405-d26b67a773d3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:35 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/071b9f6b-96a9-4e37-a2fd-73764304cbef
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/d076197c-36f7-4688-8880-03e26cef117f
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:35 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/071b9f6b-96a9-4e37-a2fd-73764304cbef
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/d076197c-36f7-4688-8880-03e26cef117f
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:37 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/1a3be15e-94c0-4cc9-905f-7cb29ae22bd3
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/071b9f6b-96a9-4e37-a2fd-73764304cbef
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:37 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/1a3be15e-94c0-4cc9-905f-7cb29ae22bd3
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/071b9f6b-96a9-4e37-a2fd-73764304cbef
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:39 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/5c41aeba-7a33-4352-b419-4c72e8a3ee94
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/1a3be15e-94c0-4cc9-905f-7cb29ae22bd3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:39 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/5c41aeba-7a33-4352-b419-4c72e8a3ee94
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/1a3be15e-94c0-4cc9-905f-7cb29ae22bd3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:40 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/472157e4-5de9-4d1b-b22f-abce0d5e744f
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/5c41aeba-7a33-4352-b419-4c72e8a3ee94
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:40 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/472157e4-5de9-4d1b-b22f-abce0d5e744f
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/5c41aeba-7a33-4352-b419-4c72e8a3ee94
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:41 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/d4d83d20-148b-48fd-bca5-33807ce22bc0
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/472157e4-5de9-4d1b-b22f-abce0d5e744f
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:41 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/d4d83d20-148b-48fd-bca5-33807ce22bc0
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/472157e4-5de9-4d1b-b22f-abce0d5e744f
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:43 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/eaef1f3a-1e22-437a-8ffd-42073501376a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/d4d83d20-148b-48fd-bca5-33807ce22bc0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:43 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/eaef1f3a-1e22-437a-8ffd-42073501376a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/d4d83d20-148b-48fd-bca5-33807ce22bc0
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:47 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/7e5c7cd0-4b29-4f6f-8129-0bca4f1825d7
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/eaef1f3a-1e22-437a-8ffd-42073501376a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:47 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/7e5c7cd0-4b29-4f6f-8129-0bca4f1825d7
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/eaef1f3a-1e22-437a-8ffd-42073501376a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:48 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/db6be1c7-6a79-4e9b-bc73-f9972e438365
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/7e5c7cd0-4b29-4f6f-8129-0bca4f1825d7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:48 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/db6be1c7-6a79-4e9b-bc73-f9972e438365
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/7e5c7cd0-4b29-4f6f-8129-0bca4f1825d7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:49 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/60ad33f8-613c-4629-9284-f356ceb0ee68
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/db6be1c7-6a79-4e9b-bc73-f9972e438365
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:49 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/60ad33f8-613c-4629-9284-f356ceb0ee68
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/db6be1c7-6a79-4e9b-bc73-f9972e438365
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:51 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/8967e934-8a6f-41d3-adf8-5cd6ac236a01
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/60ad33f8-613c-4629-9284-f356ceb0ee68
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:51 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/8967e934-8a6f-41d3-adf8-5cd6ac236a01
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/60ad33f8-613c-4629-9284-f356ceb0ee68
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:53 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/d4ff9c2b-cbf2-4d93-b0d7-d0f86e06a470
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/8967e934-8a6f-41d3-adf8-5cd6ac236a01
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:53 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/d4ff9c2b-cbf2-4d93-b0d7-d0f86e06a470
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/8967e934-8a6f-41d3-adf8-5cd6ac236a01
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:55 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/c32bf1ff-f879-4266-b790-bf89c1483c3a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/d4ff9c2b-cbf2-4d93-b0d7-d0f86e06a470
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:32:55 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/c32bf1ff-f879-4266-b790-bf89c1483c3a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/d4ff9c2b-cbf2-4d93-b0d7-d0f86e06a470
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:33:03 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/f4e74541-f319-45f5-a495-d91080a6d1a1
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/c32bf1ff-f879-4266-b790-bf89c1483c3a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:33:03 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/f4e74541-f319-45f5-a495-d91080a6d1a1
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/c32bf1ff-f879-4266-b790-bf89c1483c3a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:33:05 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 957]
+Request URL: /debug_kit/toolbar/537b4a94-e5f4-4883-a812-30dcfd17d49a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f4e74541-f319-45f5-a495-d91080a6d1a1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 957
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-28 13:33:05 Notice: Notice (8): Undefined variable: name in [C:\wamp64\www\CakePlugin\vendor\cakephp\cakephp\src\Routing\Router.php, line 959]
+Request URL: /debug_kit/toolbar/537b4a94-e5f4-4883-a812-30dcfd17d49a
+Referer URL: http://cakeplugin:8080/debug_kit/toolbar/f4e74541-f319-45f5-a495-d91080a6d1a1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Routing\Router::plugin() - CORE\src\Routing\Router.php, line 959
+include - ROOT\config\routes.php, line 89
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+

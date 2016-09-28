@@ -8,7 +8,7 @@ use App\Controller\AppController;
 /**
  * Posts Controller
  *
- * @property \App\Model\Table\PostsTable $Posts
+
  */
 class PostsController extends AppController
 {
@@ -20,10 +20,20 @@ class PostsController extends AppController
      */
     public function index()
     {
-        $posts = $this->paginate($this->Posts);
+        $post = $this->Posts->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $post = $this->Posts->patchEntity($post, $this->request->data);
+            if ($this->Posts->save($post)) {
+//                $this->Flash->success(__('The post has been saved.'));
 
-        $this->set(compact('posts'));
-        $this->set('_serialize', ['posts']);
+            } else {
+                $this->Flash->error(__('The post could not be saved. Please, try again.'));
+            }
+        }
+        $this->set(compact('post'));
+        $this->set('_serialize', ['post']);
     }
 
     /**

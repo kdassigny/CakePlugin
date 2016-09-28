@@ -7,10 +7,10 @@ use App\Controller\AppController;
 
 class HomeController extends AppController
 {
-    public $controlles = ['Posts.posts'];
+    public $plugin = ['Postit.posts'];
 
     public function index()
     {
-        include('PostsController.php');
+
     }
 }

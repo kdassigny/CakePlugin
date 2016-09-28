@@ -4,7 +4,7 @@ use Cake\Routing\Router;
 
 Router::plugin(
     'Postit',
-    ['path' => '/posts'],
+    ['path' => '/postit'],
     function (RouteBuilder $routes) {
         $routes->fallbacks('DashedRoute');
     }
